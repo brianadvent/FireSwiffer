@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		473BA1DEAB17B50C726B33E5 /* Pods_FireSwiffer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876E802B8CBE62D75EFC765C /* Pods_FireSwiffer.framework */; };
 		8634F9571D26A26A00449ED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8634F9561D26A26A00449ED0 /* AppDelegate.swift */; };
-		8634F9591D26A26A00449ED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8634F9581D26A26A00449ED0 /* ViewController.swift */; };
 		8634F95C1D26A26A00449ED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8634F95A1D26A26A00449ED0 /* Main.storyboard */; };
 		8634F95E1D26A26A00449ED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8634F95D1D26A26A00449ED0 /* Assets.xcassets */; };
 		8634F9611D26A26A00449ED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8634F95F1D26A26A00449ED0 /* LaunchScreen.storyboard */; };
+		8634F96F1D26A90400449ED0 /* SweetsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8634F96E1D26A90400449ED0 /* SweetsTableViewController.swift */; };
+		8634F9711D26A9F600449ED0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8634F9701D26A9F600449ED0 /* User.swift */; };
+		8634F9731D26AA7E00449ED0 /* Sweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8634F9721D26AA7E00449ED0 /* Sweet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8634F9531D26A26A00449ED0 /* FireSwiffer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireSwiffer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8634F9561D26A26A00449ED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8634F9581D26A26A00449ED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8634F95B1D26A26A00449ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8634F95D1D26A26A00449ED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8634F9601D26A26A00449ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8634F9621D26A26A00449ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8634F96E1D26A90400449ED0 /* SweetsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetsTableViewController.swift; sourceTree = "<group>"; };
+		8634F9701D26A9F600449ED0 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8634F9721D26AA7E00449ED0 /* Sweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sweet.swift; sourceTree = "<group>"; };
+		876E802B8CBE62D75EFC765C /* Pods_FireSwiffer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireSwiffer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3B3E10A525563D4A4659B6 /* Pods-FireSwiffer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireSwiffer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireSwiffer/Pods-FireSwiffer.debug.xcconfig"; sourceTree = "<group>"; };
+		9C3DFEE345C29B6A4CB6967C /* Pods-FireSwiffer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireSwiffer.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireSwiffer/Pods-FireSwiffer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				473BA1DEAB17B50C726B33E5 /* Pods_FireSwiffer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17AD9A78150CE8322ACFCC8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D3B3E10A525563D4A4659B6 /* Pods-FireSwiffer.debug.xcconfig */,
+				9C3DFEE345C29B6A4CB6967C /* Pods-FireSwiffer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77C0A536AAB4001E6E669663 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				876E802B8CBE62D75EFC765C /* Pods_FireSwiffer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8634F94A1D26A26A00449ED0 = {
 			isa = PBXGroup;
 			children = (
 				8634F9551D26A26A00449ED0 /* FireSwiffer */,
 				8634F9541D26A26A00449ED0 /* Products */,
+				17AD9A78150CE8322ACFCC8E /* Pods */,
+				77C0A536AAB4001E6E669663 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +83,23 @@
 			isa = PBXGroup;
 			children = (
 				8634F9561D26A26A00449ED0 /* AppDelegate.swift */,
-				8634F9581D26A26A00449ED0 /* ViewController.swift */,
+				8634F9751D26AE9400449ED0 /* Model */,
+				8634F96E1D26A90400449ED0 /* SweetsTableViewController.swift */,
 				8634F95A1D26A26A00449ED0 /* Main.storyboard */,
 				8634F95D1D26A26A00449ED0 /* Assets.xcassets */,
 				8634F95F1D26A26A00449ED0 /* LaunchScreen.storyboard */,
 				8634F9621D26A26A00449ED0 /* Info.plist */,
 			);
 			path = FireSwiffer;
+			sourceTree = "<group>";
+		};
+		8634F9751D26AE9400449ED0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8634F9701D26A9F600449ED0 /* User.swift */,
+				8634F9721D26AA7E00449ED0 /* Sweet.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8634F9651D26A26A00449ED0 /* Build configuration list for PBXNativeTarget "FireSwiffer" */;
 			buildPhases = (
+				9F8223BA640B0255EF5B1AF2 /* [CP] Check Pods Manifest.lock */,
 				8634F94F1D26A26A00449ED0 /* Sources */,
 				8634F9501D26A26A00449ED0 /* Frameworks */,
 				8634F9511D26A26A00449ED0 /* Resources */,
+				92F091862F9E11DDCC95631A /* [CP] Embed Pods Frameworks */,
+				F8F99D32D3B1AC97C0F15AB5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +171,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		92F091862F9E11DDCC95631A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireSwiffer/Pods-FireSwiffer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F8223BA640B0255EF5B1AF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8F99D32D3B1AC97C0F15AB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireSwiffer/Pods-FireSwiffer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8634F94F1D26A26A00449ED0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8634F9591D26A26A00449ED0 /* ViewController.swift in Sources */,
+				8634F96F1D26A90400449ED0 /* SweetsTableViewController.swift in Sources */,
 				8634F9571D26A26A00449ED0 /* AppDelegate.swift in Sources */,
+				8634F9731D26AA7E00449ED0 /* Sweet.swift in Sources */,
+				8634F9711D26A9F600449ED0 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +338,7 @@
 		};
 		8634F9661D26A26A00449ED0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3B3E10A525563D4A4659B6 /* Pods-FireSwiffer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FireSwiffer/Info.plist;
@@ -258,6 +350,7 @@
 		};
 		8634F9671D26A26A00449ED0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3DFEE345C29B6A4CB6967C /* Pods-FireSwiffer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FireSwiffer/Info.plist;
@@ -286,6 +379,7 @@
 				8634F9671D26A26A00449ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
